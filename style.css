@@ -1,14 +1,24 @@
-
+*{
+    background-image: url(/assts/sad-2635043_1920.jpg);
+    
+}
 
 .title{
-background-color: rgba(52, 52, 56, 0.785)
+
+ justify-content: center;
+ color: yellow;
+ position: absolute;
+ justify-items: center;
+font-size: 3rem;
+border: rgb(37, 34, 31);
 
 
 }
 
-.img{
-width: 400px;
-height: 500px;
 
+
+p{
+    position: relative;
+    font-size: 1.3rem;
+    color: yellow;
 }
-
