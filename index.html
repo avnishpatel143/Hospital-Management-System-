@@ -3,18 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Allgoogd</title>
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
-<body> 
-       <div class="title">
-        <h1>  LifeStyle.Com </h1>
-       </div>
-    <p>Just for checking on live server </p>
-  
+<body>
+    <header>
+        <h1>Hospital Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula turpis nec fermentum consequat.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Service 1</li>
+            <li>Service 2</li>
+            <li>Service 3</li>
+        </ul>
+    </section>
+
+    <section id="doctors">
+        <h2>Our Doctors</h2>
+        <div class="doctor">
+            <img src="doctor1.jpg" alt="Doctor 1">
+            <h3>Doctor 1</h3>
+            <p>Specialty: Cardiology</p>
+        </div>
+        <div class="doctor">
+            <img src="doctor2.jpg" alt="Doctor 2">
+            <h3>Doctor 2</h3>
+            <p>Specialty: Neurology</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hospital Management System</p>
+    </footer>
     
-
-       
+    
+    <style> 
+</style>
 </body>
 </html>

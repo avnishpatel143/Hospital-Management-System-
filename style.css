@@ -1,24 +1,54 @@
-*{
-    background-image: url(/assts/sad-2635043_1920.jpg);
-    
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.title{
-
- justify-content: center;
- color: yellow;
- position: absolute;
- justify-items: center;
-font-size: 3rem;
-border: rgb(37, 34, 31);
-
-
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
 }
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
 
-p{
-    position: relative;
-    font-size: 1.3rem;
-    color: yellow;
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+.doctor {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
